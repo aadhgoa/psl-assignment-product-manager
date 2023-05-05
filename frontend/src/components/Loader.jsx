@@ -1,17 +1,14 @@
 import React from "react";
+import '../styles/Loader.css';
 
 const Loader = () => {
 
     return (
-        <div className="spinnerContainer">
-            <div className="spinner"></div>
-            <div className="loader">
-                <p>loading</p>
-                <div className="words">
-                    <span className="word">Products</span>
-                </div>
-            </div>
+        <div class="loader">
+            <div class="loader-text">Loading...</div>
+            <div class="loader-bar"></div>
         </div>
+
     );
 };
 
